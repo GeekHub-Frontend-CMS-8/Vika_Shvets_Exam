@@ -22,7 +22,7 @@ body {
   display: flex;
   flex-flow: column;
   justify-content: space-between;
-  margin-bottom: 50px; }
+  padding-bottom: 50px; }
 
 .headline {
   display: flex;
@@ -76,6 +76,9 @@ body {
     padding-bottom: 50px; }
   .hand-headline button {
     margin-bottom: 50px; }
+
+.design-section {
+  padding-bottom: 50px; }
 
 .design {
   display: flex;
@@ -179,3 +182,33 @@ form button {
   border-radius: 0 3px 3px 0;
   background-color: #16a085;
   border: none; }
+
+.store-btn {
+  width: 100%;
+  height: 56px;
+  max-width: 240px;
+  margin: 10px; }
+
+.store {
+  color: #ffffff;
+  display: inline-flex;
+  justify-self: flex-end;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 100%;
+  border-radius: 0 3px 3px 0;
+  background-color: #16a099;
+  border: none; }
+  .store i {
+    font-size: 25px; }
+
+.download-section {
+  padding: 100px 0;
+  text-align: center;
+  min-height: 400px;
+  background-color: #f5f6f7; }
+
+.buts {
+  align-items: center;
+  justify-content: center; }
