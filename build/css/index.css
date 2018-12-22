@@ -182,6 +182,10 @@ form button {
   border-radius: 0 3px 3px 0;
   background-color: #16a085;
   border: none; }
+  form button:hover, form button:active, form button:focus {
+    transition: .3s;
+    background-color: #ffffff;
+    outline: none; }
 
 .store-btn {
   width: 100%;

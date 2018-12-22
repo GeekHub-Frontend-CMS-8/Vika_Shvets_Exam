@@ -31,7 +31,8 @@
   width: 100px;
   height: 80px;
   color: #ffffff;
-  font: 400 18px "Lato", sans-serif; }
+  font: 400 18px "Lato", sans-serif;
+  text-transform: uppercase; }
   .nav-a:hover, .nav-a:active, .nav-a:focus {
     transition: .3s;
     background-color: #16a085;
@@ -55,7 +56,8 @@
     padding: 10px;
     background-color: rgba(255, 255, 255, 0.3);
     border: 1px solid #ffffff;
-    color: #ffffff; }
+    color: #ffffff;
+    text-transform: uppercase; }
     .nav-m li a:hover, .nav-m li a:active, .nav-m li a:focus {
       transition: .3s;
       cursor: pointer;
