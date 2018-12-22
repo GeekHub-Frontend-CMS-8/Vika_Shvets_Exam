@@ -1,0 +1,68 @@
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0; }
+
+a {
+  text-decoration: none; }
+  a:active, a:hover, a:focus {
+    text-decoration: none;
+    color: #ffffff; }
+
+h2 {
+  padding: 50px 0;
+  color: #16a085;
+  font-family: "Varela Round";
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase; }
+
+.social {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-around; }
+  .social li {
+    display: inline-flex; }
+  .social a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 31px;
+    height: 31px;
+    border-radius: 50px; }
+  .social i {
+    display: inline-flex;
+    color: #ffffff;
+    font-size: 30px; }
+  .social-footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background-color: #68a097; }
+    .social-footer a {
+      width: 60px;
+      height: 60px;
+      background-color: #75b4aa;
+      margin: 15px; }
+      @media (max-width: 767px) {
+        .social-footer a {
+          width: 40px;
+          height: 40px;
+          margin: 10px; } }
+      .social-footer a i {
+        font-size: 25px; }
+
+.tw:hover i {
+  transition: .3s;
+  color: #74c7d5; }
+
+.in:hover i {
+  transition: .3s;
+  color: #000000; }
+
+.gl:hover i {
+  transition: .3s;
+  color: #000000; }

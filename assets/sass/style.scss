@@ -1,0 +1,88 @@
+@import "variables";
+@import "mixins";
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+
+  &:active, &:hover, &:focus {
+    text-decoration: none;
+    color: $primary;
+  }
+}
+
+h2 {
+  padding: 50px 0;
+  color: $accent;
+  font-family: "Varela Round";
+  font-size: 18px;
+  font-weight: 700;
+  text-transform: uppercase;
+
+}
+
+.social {
+  @include inline-flex-around-center;
+
+  li {
+    display: inline-flex;
+  }
+
+  a {
+    @include inline-flex-around-center;
+    width: 31px;
+    height: 31px;
+    border-radius: 50px;
+  }
+
+  i {
+    display: inline-flex;
+    color: $primary;
+    font-size: 30px;
+  }
+
+  &-footer {
+    @include flex-center-center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background-color: $inputs;
+
+    a {
+      width: 60px;
+      height: 60px;
+      background-color: $backgroung-contacts;
+      margin: 15px;
+      @media (max-width: 767px) {
+        width: 40px;
+        height: 40px;
+        margin: 10px;
+      }
+
+      i {
+        font-size: 25px;
+      }
+    }
+  }
+}
+
+
+.tw:hover i {
+  transition: .3s;
+  color: $twitter;
+}
+
+.in:hover i {
+  transition: .3s;
+  color: #000000;
+}
+
+.gl:hover i {
+  transition: .3s;
+  color: #000000;
+}

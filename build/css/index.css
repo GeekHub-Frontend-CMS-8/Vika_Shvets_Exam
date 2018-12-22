@@ -1,0 +1,181 @@
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+body {
+  font-family: 'Varela Round', sans-serif; }
+
+.home ol li {
+  border-radius: 30px;
+  width: 20px;
+  height: 20px; }
+
+.home-social {
+  padding: 20px; }
+  .home-social li {
+    padding: 5px; }
+  .home-social .lnk:hover i {
+    transition: .3s;
+    color: #000000; }
+
+.home-bg {
+  background: url("../img/bg1.png") no-repeat;
+  background-size: cover;
+  min-height: 745px;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  margin-bottom: 50px; }
+
+.headline {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-flow: column; }
+  .headline h1 {
+    text-transform: uppercase;
+    color: #ffffff;
+    text-align: center; }
+  .headline p {
+    color: #ffffff;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500; }
+
+.cmn-btn {
+  text-transform: uppercase;
+  width: 166px;
+  height: 49px;
+  border-radius: 3px;
+  border: none;
+  color: #ffffff;
+  background-color: #16a085; }
+  .cmn-btn:hover, .cmn-btn:active, .cmn-btn:focus {
+    transition: .3s;
+    background-color: #000000;
+    outline: none; }
+
+.hand-section {
+  background: #f5f6f7 url("../img/hand.png") no-repeat right top;
+  min-height: 400px;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between; }
+  @media (max-width: 767px) {
+    .hand-section {
+      background: #f5f6f7; } }
+
+.hand-headline {
+  text-align: left;
+  max-width: 40%;
+  height: 100%;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around; }
+  @media (max-width: 767px) {
+    .hand-headline {
+      max-width: 100%; } }
+  .hand-headline p {
+    padding-bottom: 50px; }
+  .hand-headline button {
+    margin-bottom: 50px; }
+
+.design {
+  display: flex;
+  justify-content: flex-end;
+  overflow: hidden;
+  background: url("../img/iphone.png") no-repeat left top;
+  margin-top: 100px; }
+  @media (max-width: 767px) {
+    .design {
+      background: #f5f6f7; } }
+
+.arrows {
+  margin-bottom: 100px; }
+  .arrows a {
+    width: 15px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-around; }
+
+.descr {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-flow: column;
+  text-align: center; }
+
+h3 {
+  text-transform: uppercase; }
+
+.photo img {
+  width: 100%;
+  height: 100%; }
+
+.descr, .photo {
+  padding-top: 10px; }
+
+.com {
+  margin: 10px; }
+  .com a {
+    padding: 15px; }
+
+.community-section {
+  padding: 100px 0;
+  background-color: #f5f6f7; }
+
+.form-row {
+  margin: 0 auto;
+  width: 30%; }
+  @media (max-width: 767px) {
+    .form-row {
+      width: 100%; } }
+
+.subscribe-section {
+  min-height: 700px;
+  background: url("../img/bg2.png") no-repeat center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column; }
+  .subscribe-section .col-4, .subscribe-section .col-8 {
+    padding: 0; }
+  .subscribe-section h2 {
+    color: #ffffff;
+    font-size: 24px;
+    text-align: center; }
+
+form input {
+  width: 100%;
+  height: 40px;
+  background-color: #68a097;
+  border: none;
+  color: #82c8bd;
+  font: 400 16px/21px "Lato", sans-serif;
+  border-radius: 3px;
+  width: 100%;
+  height: 60px;
+  border-radius: 3px 0 0 3px;
+  background-color: #ffffff;
+  border: none; }
+  form input:active, form input:focus {
+    transition: .3s;
+    background-color: #ffffff;
+    outline: none; }
+  form input:hover {
+    transition: .3s;
+    background-color: rgba(255, 255, 255, 0.7); }
+  form input::placeholder {
+    color: #82c8bd;
+    padding-left: 10px; }
+  form input::placeholder {
+    padding-left: 10px;
+    color: #000000;
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase; }
+
+form button {
+  height: 60px;
+  width: 100%;
+  border-radius: 0 3px 3px 0;
+  background-color: #16a085;
+  border: none; }
